@@ -4,4 +4,4 @@
 clear
 echo $cpu_temp°C
 echo -ne "\033]0;$cpu_temp°C\007"
-$0
+exec $0
