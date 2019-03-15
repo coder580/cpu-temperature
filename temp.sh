@@ -4,4 +4,4 @@
 clear
  echo $cpu_temp°C | toilet --gay
 sleep 1
-$0
+exec $0
