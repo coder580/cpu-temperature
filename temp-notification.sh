@@ -3,4 +3,4 @@
  cpu_temp=$(($cpu_temp/1000))
 zenity --notification --text="the cpu temperature is $cpu_temp°C"
 sleep 5
-$0
+exec $0
